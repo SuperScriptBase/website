@@ -37,7 +37,7 @@ disableHugoGeneratorInject = false
   posts = "/posts/:year/:month/:title/"
 
 [author]
-  name = "Jane Doe"
+  name = "SuperScriptBase"
 
 [blackfriday]
   hrefTargetBlank = true
@@ -110,15 +110,14 @@ disableHugoGeneratorInject = false
   # If you want, you can easily override the default footer with your own content. 
   #
   [params.footer]
-    trademark = true
-    rss = true
-    copyright = true
+    trademark = false
+    rss = false
+    copyright = false
     author = true
 
     topText = []
     bottomText = [
-      "Powered by <a href=\"http://gohugo.io\">Hugo</a>",
-      "Made with &#10084; by <a href=\"https://github.com/rhazdon\">Djordje Atlialp</a>"
+      "Made with &#9775; by <a href=\"https://github.com/SuperScriptBase\">SuperScriptBase</a>"
     ]
 
   # Colors for favicons
@@ -160,7 +159,7 @@ disableHugoGeneratorInject = false
   # Social icons
   [[params.social]]
     name = "twitter"
-    url  = "https://twitter.com/"
+    url  = "https://twitter.com/SuperscriptBase"
 
   [[params.social]]
     name = "email"
@@ -179,10 +178,10 @@ disableHugoGeneratorInject = false
     url  = "https://www.stackoverflow.com/"
 
 [languages]
-  [languages.en]
-    subtitle  = "Hello Friend NG Theme"
-    weight    = 1
-    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+#  [languages.en]
+#    subtitle  = "Hello Friend NG Theme"
+#    weight    = 1
+#    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
 
 #  [languages.fr]
 #    subtitle  = "Hello Friend NG Theme"
