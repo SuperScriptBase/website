@@ -1,7 +1,7 @@
-baseURL = "https://superscriptbz.github.io/"
-#title   = "Hello Friend NG"
+baseURL = "https://example.com"
+title   = "Hello 4s3ti"
 languageCode = "en-us"
-theme = "hello-friend-ng"
+theme = "hello-4s3ti"
 
 PygmentsCodeFences = true
 PygmentsStyle = "monokai"
@@ -32,6 +32,9 @@ disableRSS     = false
 disableSitemap = false
 disable404     = false
 disableHugoGeneratorInject = false
+IsMultiLangual = false
+defaultContentLanguage = pt-pt
+
 
 [permalinks]
   posts = "/posts/:year/:month/:title/"
@@ -52,19 +55,25 @@ disableHugoGeneratorInject = false
   dateformShort   = "Jan 2"
   dateformNum     = "2006-01-02"
   dateformNumTime = "2006-01-02 15:04"
-
+  
   # Metadata mostly used in document's head
   # 
   description = "Nice theme for homepages and blogs"
   keywords = ""
   images = [""]
 
+  # Home page title
+  homeTitle = "hello 4s3ti"
+
   # Home subtitle of the index page.
   #
-  homeSubtitle = "Hello Friend NG"
+  homeSubtitle = "Hello 4s3ti"
 
   # Set a background for the homepage
   # backgroundImage = "assets/images/background.jpg"
+  
+  # Adds a dark overlay over the background
+  # backgroundEffects = false
 
   # Prefix of link to the git commit detail page. GitInfo must be enabled.
   #
@@ -73,6 +82,9 @@ disableHugoGeneratorInject = false
   # Set disableReadOtherPosts to true in order to hide the links to other posts.
   #
   disableReadOtherPosts = false
+  
+  # Sets the default theme
+  defaultTheme = "dark"
 
   # Enable theme toggle
   # 
@@ -80,7 +92,7 @@ disableHugoGeneratorInject = false
   # Per default, this option is off. 
   # The theme is respecting the prefers-color-scheme of the operating systeme. 
   # With this option on, the page user is able to set the scheme he wants. 
-  enableThemeToggle = false
+  enableThemeToggle = true
 
   # Sharing buttons
   #
@@ -96,6 +108,18 @@ disableHugoGeneratorInject = false
   #
   enableGlobalLanguageMenu = true
 
+  # Shows Posts on the front/Home page
+  showPosts = true
+
+  # Shows the ReadMore button in text instead
+  ReadmoreText = true
+
+  # Hides ReadMore
+  hideReadMore = false
+
+  # Shows reding time
+  ShowReadingTime = true
+
   # Integrate Javascript files or stylesheets by adding the url to the external assets or by
   # linking local files with their path relative to the static folder, e.g. "css/styles.css"
   #
@@ -109,16 +133,22 @@ disableHugoGeneratorInject = false
   # Custom footer 
   # If you want, you can easily override the default footer with your own content. 
   #
+  [params.fontAwesome]
+    KitURL = https://kit.fontawesome.com/KitID.js
+
   [params.footer]
     trademark = true
     rss = true
     copyright = true
     author = true
 
+    # Shows social icons on footer instead of main page
+    socialIcons = true
+
     topText = []
     bottomText = [
       "Powered by <a href=\"http://gohugo.io\">Hugo</a>",
-      "Made with &#10084; by <a href=\"https://github.com/rhazdon\">Djordje Atlialp</a>"
+      "Hello 4s3ti theme by <a href=\"https://github.com/4s3ti\">4s3ti</a>"
     ]
 
   # Colors for favicons
@@ -130,7 +160,7 @@ disableHugoGeneratorInject = false
 
   [params.logo]
     logoMark     = ">"
-    logoText     = "$explo(r|it)er:"
+    logoText     = "$ cd /home/"
     logoHomeLink = "/"
     # Set true to remove the logo cursor entirely.
     # logoCursorDisabled = false
@@ -165,10 +195,11 @@ disableHugoGeneratorInject = false
   [[params.social]]
     name = "email"
     url  = "mailto:nobody@example.com"
+    icon = fa-solid fa-envelope
 
   [[params.social]]
     name = "github"
-    url  = "https://github.com/SuperScriptBase"
+    url  = "https://github.com/"
 
   [[params.social]]
     name = "linkedin"
@@ -180,24 +211,16 @@ disableHugoGeneratorInject = false
 
 [languages]
   [languages.en]
-    subtitle  = "Hello Friend NG Theme"
+    subtitle  = "Hello 4s3ti Theme"
     weight    = 1
     copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
 
-#  [languages.fr]
-#    subtitle  = "Hello Friend NG Theme"
-#    weight    = 2
-#    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+  [languages.fr]
+    subtitle  = "Hello 4s3ti Theme"
+    weight    = 2
+    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
 
 [menu]
-  [[menu.main]]
-    identifier = "projects"
-    name       = "Projects"
-    url        = "projects/"
-  [[menu.main]]
-    identifier = "code"
-    name       = "Code"
-    url        = "code/"
   [[menu.main]]
     identifier = "about"
     name       = "About"
@@ -206,3 +229,12 @@ disableHugoGeneratorInject = false
     identifier = "posts"
     name       = "Posts"
     url        = "posts/"
+  [[menu.main]]
+    identifier = "tools"
+    name       = "Tools"
+    url        = "#"
+  [[menu.main]]
+    identifier = "sometool"
+    name       = "SomeTool"
+    url        = "#"
+    parent     = "tools"
