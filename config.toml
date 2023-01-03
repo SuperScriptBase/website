@@ -61,10 +61,10 @@ disableHugoGeneratorInject = false
 
   # Home subtitle of the index page.
   #
-  homeSubtitle = "Hello Friend NG"
+  homeSubtitle = "Hello Friend/Hacker NG"
 
   # Set a background for the homepage
-  # backgroundImage = "assets/images/background.jpg"
+  #backgroundImage = "msdos.png"
 
   # Prefix of link to the git commit detail page. GitInfo must be enabled.
   #
@@ -94,7 +94,7 @@ disableHugoGeneratorInject = false
   #
   # Enables the global language menu.
   #
-  enableGlobalLanguageMenu = true
+  enableGlobalLanguageMenu = false
 
   # Integrate Javascript files or stylesheets by adding the url to the external assets or by
   # linking local files with their path relative to the static folder, e.g. "css/styles.css"
@@ -151,10 +151,10 @@ disableHugoGeneratorInject = false
 
   # Uncomment this if you want a portrait on your start page
   #
-  # [params.portrait]
-  #   path     = "/img/image.jpg"
-  #   alt      = "Portrait"
-  #   maxWidth = "50px"
+#   [params.portrait]
+#     path     = "ytc.png"
+#     alt      = "Portrait"
+#     maxWidth = "600px"
 
   # Social icons
   [[params.social]]
@@ -178,15 +178,9 @@ disableHugoGeneratorInject = false
     url  = "https://www.stackoverflow.com/"
 
 [languages]
-#  [languages.en]
-#    subtitle  = "Hello Friend NG Theme"
-#    weight    = 1
-#    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
-
-#  [languages.fr]
-#    subtitle  = "Hello Friend NG Theme"
-#    weight    = 2
-#    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+  [languages.en]
+    subtitle  = "Hello Friend NG Theme"
+    weight    = 1
 
 [menu]
   [[menu.main]]

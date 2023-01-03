@@ -3,7 +3,7 @@ title: "Mac iOS Commands"
 date: 2022-12-08T14:06:23-07:00
 toc: false
 images:
-tags: ["posts"]
+tags: ["posts","mac"]
 ---
 
 1. Open Spotlight Search - command key + spacebar

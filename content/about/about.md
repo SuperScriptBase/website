@@ -9,3 +9,5 @@ tags: ["about"]
 ---
 
 This is about me
+
+{{< image src="../cve-2022-27925.png" alt="Hello Friend" position="center" style="border-radius: 8px;" >}}

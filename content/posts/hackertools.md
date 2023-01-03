@@ -1,0 +1,19 @@
+---
+title: "Hacker Tools"
+date: 2023-01-03T11:07:10-07:00
+toc: false
+images:
+tags: ["posts","cybersecurity"]
+---
+
+1. NMAP
+2. METASPLOIT
+3. JOHN THE RIPPER
+4. BURP SUITE
+5. BETTERCAP
+6. SQLMAP
+7. WIRESHARK
+8. SOCIAL ENGINEERING TOOLKIT [SET]
+9. AIRCRACK.NG
+10. NETCAT
+
